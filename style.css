@@ -1,0 +1,137 @@
+/**body {
+  font-family: "Poppins", sans-serif;
+  color:purple;
+ }
+
+h1{
+	font-family: "Poppins", sans-serif;
+ 	color:red;	
+}
+
+
+ h2{
+ 	font-family: "Poppins", sans-serif;
+ 	background: #ff7388;
+ }
+
+section {
+  padding: 5px 0;
+}**/
+
+body{
+	background-image:url(img/estrella.jpg)
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 30px;
+	color: purple;
+}
+
+h2{
+	 font-family: "Brush Script MT", cursive;
+	font-size: 40px;
+	color:purple ;
+}
+
+ .h2{
+  font-family: "Poppins", sans-serif;
+  
+ }
+
+ .h2_blanco{
+   font-family: "Brush Script MT", cursive;
+   color:white;
+ }
+
+ p{
+  text-align: justify;
+ }
+
+ .p_tam{
+  background-size: 20px;
+ }
+
+ .p_blanco{
+  color:white;
+ }
+
+.section{
+	margin:50px;
+}
+
+hr{
+	border-color:purple;
+}
+
+.bg-primary {
+  background-color: #3A6324;
+}
+
+.blanco{
+	background-color: white;
+}
+
+/*Barra de navegación*/
+header{
+  background: purple;
+}
+
+header ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+header a {
+  font-weight: bold;
+}
+
+header ul li:hover {
+  background: blueviolet;
+}
+
+
+/****************************************** CODIGO ANTERIOR NO DESCARTABLE *******************************************/
+nav {
+  float: right; /* Desplazamos el nav hacia la izquierda */
+}
+nav ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+; /* Limpiamos errores de float */
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 14px;
+  color: #fff;
+  text-decoration: none;
+  background: purple;
+}
+
+nav ul li:hover {
+  background: black;
+}
+/****************************************** CODIGO ANTERIOR NO DESCARTABLE *******************************************/
+
+.img_hoja{
+	background-image:url(img/hoja.jpg);
+}
+
+.img_star{
+  background-image:url(img/estrella.jpg);
+}
+
+.azul{
+  background-color:  #252850;
+}
